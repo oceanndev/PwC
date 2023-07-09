@@ -1,0 +1,13 @@
+package Application;
+	import java.util.HashMap;
+	import java.util.Map;
+	import entities.anadromo;
+
+	public class Main {
+	    public static void main(String[] args) {
+	        String text = "radar";
+	        boolean anagram = anadromo.anadromo(text);
+	        System.out.println("Text: " + text);
+	        System.out.println("Is an anagram of a palindrome? " + anagram);
+	    }
+	}

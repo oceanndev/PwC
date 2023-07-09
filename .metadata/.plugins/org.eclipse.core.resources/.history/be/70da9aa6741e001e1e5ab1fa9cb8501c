@@ -1,0 +1,30 @@
+package entities;
+public class anadromo {
+	    public static boolean anadromo(String text) {
+	        // Count occurrences of each character
+	        int[] charCount = new int[128];
+
+	        for (char c : text.toCharArray()) {
+	            charCount[c]++;
+	        }
+
+	        // Check if at most one character has an odd count
+	        int oddCount = 0;
+
+	        for (int count : charCount) {
+	            if (count % 2 != 0) {
+	                oddCount++;
+	                if (oddCount > 1) {
+	                    return false;
+	                }
+	            }
+	        }
+
+	        return true;
+	    }
+
+		public static boolean AnagramPalindrome(String text) {
+			// TODO Auto-generated method stub
+			return false;
+		}
+	}

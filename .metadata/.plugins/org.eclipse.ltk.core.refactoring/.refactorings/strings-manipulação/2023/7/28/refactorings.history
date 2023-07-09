@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;inverso.java&apos; to &apos;Main.java&apos;&#x0D;&#x0A;- Original project: &apos;strings-manipulação&apos;&#x0D;&#x0A;- Original element: &apos;inverso.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Main.java&apos;" description="Rename compilation unit &apos;inverso.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{inverso.java" name="Main.java" references="false" stamp="1688910775373" version="1.0"/>
+</session>
